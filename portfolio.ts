@@ -12,12 +12,10 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Eric Chan',
+  title: "Hello There, I'm Eric Chan",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
-  resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    "I'm Software Engineer who is passionate about building scalable software, creating effective solutions, and learning new technologies.",
 };
 
 export const openSource = {
@@ -27,27 +25,22 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  linkedin: 'https://www.linkedin.com/in/1d8fd4e4796c4bc77d5c6af5b5c5b72eb2a9a9c792d2bba18f75e3ca19f25d59c83ec485e33222/',
+  github: 'https://github.com/kerrickchan',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Focus on JavaScript Ecosystem Technologies Developer',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
       ],
       softwareSkills: [
         {
@@ -63,33 +56,40 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:javascript',
         },
         {
+          skillName: 'TypeScript',
+          fontAwesomeClassName: 'vscode-icons:file-type-typescript-official',
+        },
+        {
+          skillName: 'Tailwind CSS',
+          fontAwesomeClassName: 'logos:tailwindcss-icon',
+        },
+        {
           skillName: 'Reactjs',
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
+        },
+        {
+          skillName: 'React Native',
+          fontAwesomeClassName: 'tabler:brand-react-native',
         },
         {
           skillName: 'Nextjs',
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
         },
         {
-          skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
-        },
-
-        {
           skillName: 'Redux',
           fontAwesomeClassName: 'logos:redux',
         },
         {
-          skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
+          skillName: 'Redux',
+          fontAwesomeClassName: 'logos:nestjs',
         },
         {
           skillName: 'Yarn',
           fontAwesomeClassName: 'logos:yarn',
+        },
+        {
+          skillName: 'Python',
+          fontAwesomeClassName: 'logos:python',
         },
       ],
     },
@@ -106,87 +106,33 @@ export const skillsSection: SkillsSectionType = {
         ),
       ],
       softwareSkills: [
-        // ? Check README To get icon details
         {
-          skillName: 'AWS',
-          fontAwesomeClassName: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          fontAwesomeClassName: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
+          skillName: 'Docker',
+          fontAwesomeClassName: 'logos:docker-icon',
         },
         {
           skillName: 'PostgreSQL',
           fontAwesomeClassName: 'logos:postgresql',
         },
         {
-          skillName: 'Github',
-          fontAwesomeClassName: 'akar-icons:github-fill',
+          skillName: 'MongoDB',
+          fontAwesomeClassName: 'vscode-icons:file-type-mongo',
         },
         {
-          skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
+          skillName: 'Github',
+          fontAwesomeClassName: 'akar-icons:github-fill',
         },
         {
           skillName: 'Github Actions',
           fontAwesomeClassName: 'logos:github-actions',
         },
         {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
+          skillName: 'NPM',
+          fontAwesomeClassName: 'logos:npm-icon',
         },
         {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
-        },
-      ],
-    },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          skillName: 'AWS',
+          fontAwesomeClassName: 'logos:aws',
         },
       ],
     },
@@ -195,123 +141,88 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Frontend',
+    progressPercentage: '80',
   },
   {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '50',
+  },
+  {
+    Stack: 'Cloud',
+    progressPercentage: '30',
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '70',
+  },
+  {
+    Stack: 'Documentation',
+    progressPercentage: '80',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'Middlesex University',
+    subHeader: 'BSc(Hons) Information Technology and Business Information Systems',
+    duration: 'January 2022 - January 2023',
+    desc: 'Part Time Top Up Degree Study in The Hong Kong Management Association',
+    grade: 'Second Upper Class Honours',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    ],
+  },
+  {
+    schoolName: 'Staffordshire University',
+    subHeader: 'BSc (Hons) Computing Science',
+    duration: 'September 2013 - April 2015',
+    desc: 'Part Time Top Up Degree Study in the CityU SCOPE',
+    grade: 'Pass',
+    descBullets: [
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Senior Software Engineer',
+    company: 'YOOV Internet Technology Limited',
+    companyLogo: '/img/icons/company/yoov.jpeg',
+    date: 'Aug 2022 - Present',
+    desc: '',
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: 'Analysis Programmer',
+    company: 'Soepay Limited',
+    companyLogo: '/img/icons/company/soepay.jpeg',
+    date: 'Nov 2021 - May 2022',
+    desc: '',
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    role: 'Information Technology Programmer',
+    company: 'Hospital Authority',
+    companyLogo: '/img/icons/company/ha.webp',
+    date: 'Nov 2020 - Nov 2021',
+    desc: '',
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
-];
-
-export const projects: ProjectType[] = [
-  {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
-  },
-  {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
-  },
-  {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-  },
-];
-
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+    role: 'Programmer',
+    company: 'Taste of Asia Group Limited',
+    companyLogo: '/img/icons/company/toa.jpeg',
+    date: 'Aug-2019 - Nov 2020',
+    desc: '',
   },
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Kerrick Chan - Software Engineer',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+    'A passionate Software Engineer in ReactJS and NodeJS.',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
-    'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Kerrick Chan Portfolio',
   ],
 };
