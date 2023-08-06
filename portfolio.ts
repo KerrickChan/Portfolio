@@ -214,6 +214,9 @@ export const experience: ExperienceType[] = [
   },
 ];
 
+export const feedbacks: FeedbackType[] = [
+];
+
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = false;
 
