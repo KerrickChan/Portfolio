@@ -45,51 +45,51 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: 'HTML-5',
-          fontAwesomeClassName: 'vscode-icons:file-type-html',
+          iconifyTag: 'vscode-icons:file-type-html',
         },
         {
           skillName: 'CSS-3',
-          fontAwesomeClassName: 'vscode-icons:file-type-css',
+          iconifyTag: 'vscode-icons:file-type-css',
         },
         {
           skillName: 'JavaScript',
-          fontAwesomeClassName: 'logos:javascript',
+          iconifyTag: 'logos:javascript',
         },
         {
           skillName: 'TypeScript',
-          fontAwesomeClassName: 'vscode-icons:file-type-typescript-official',
+          iconifyTag: 'vscode-icons:file-type-typescript-official',
         },
         {
           skillName: 'Tailwind CSS',
-          fontAwesomeClassName: 'logos:tailwindcss-icon',
+          iconifyTag: 'logos:tailwindcss-icon',
         },
         {
           skillName: 'Reactjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
+          iconifyTag: 'vscode-icons:file-type-reactjs',
         },
         {
           skillName: 'React Native',
-          fontAwesomeClassName: 'tabler:brand-react-native',
+          iconifyTag: 'tabler:brand-react-native',
         },
         {
           skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+          iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
           skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
+          iconifyTag: 'logos:redux',
         },
         {
           skillName: 'Redux',
-          fontAwesomeClassName: 'logos:nestjs',
+          iconifyTag: 'logos:nestjs',
         },
         {
           skillName: 'Yarn',
-          fontAwesomeClassName: 'logos:yarn',
+          iconifyTag: 'logos:yarn',
         },
         {
           skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
+          iconifyTag: 'logos:python',
         },
       ],
     },
@@ -108,31 +108,31 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
+          iconifyTag: 'logos:docker-icon',
         },
         {
           skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
+          iconifyTag: 'logos:postgresql',
         },
         {
           skillName: 'MongoDB',
-          fontAwesomeClassName: 'vscode-icons:file-type-mongo',
+          iconifyTag: 'vscode-icons:file-type-mongo',
         },
         {
           skillName: 'Github',
-          fontAwesomeClassName: 'akar-icons:github-fill',
+          iconifyTag: 'akar-icons:github-fill',
         },
         {
           skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
+          iconifyTag: 'logos:github-actions',
         },
         {
           skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
+          iconifyTag: 'logos:npm-icon',
         },
         {
           skillName: 'AWS',
-          fontAwesomeClassName: 'logos:aws',
+          iconifyTag: 'logos:aws',
         },
       ],
     },
