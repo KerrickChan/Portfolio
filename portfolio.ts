@@ -214,6 +214,9 @@ export const experience: ExperienceType[] = [
   },
 ];
 
+export const projects: ProjectType[] = [
+];
+
 export const feedbacks: FeedbackType[] = [
 ];
 
