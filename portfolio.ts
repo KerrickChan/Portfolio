@@ -215,6 +215,9 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  { name: 'YOOV PLUS Workflow', desc: 'No Code System' },
+  { name: 'Sports Kids', desc: 'Mobile Application' },
+  { name: 'CRM Data Migration Utility', desc: 'CRM Data Migration API Crawler' },
 ];
 
 export const feedbacks: FeedbackType[] = [
